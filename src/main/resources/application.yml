@@ -1,0 +1,16 @@
+#server:
+#  port: 9292  # Port number for your application
+#
+#spring:
+#  datasource:
+#    url: jdbc:h2:mem:testdb  # H2 in-memory database (you can change it to a file-based database if needed)
+#    driverClassName: org.h2.Driver
+#    username: sa  # Default H2 username
+#    password: password  # Default H2 password
+#
+#  h2:
+#    console:
+#      enabled: true  # Enable H2 Console
+#      path: /h2-console  # URL path for accessing the H2 Console
+#      settings:
+#        web-allow-others: false  # Restrict access to only localhost (set to true if you want external access)
